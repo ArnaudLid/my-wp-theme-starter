@@ -1,0 +1,20 @@
+// Couleurs
+$primary-color: #0284c7;
+$secondary-color: #64748b;
+$text-color: #1e293b;
+$bg-color: #ffffff;
+
+// Breakpoints (alignés avec Tailwind)
+$breakpoints: (
+        'sm': 640px,
+        'md': 768px,
+        'lg': 1024px,
+        'xl': 1280px,
+        '2xl': 1536px,
+);
+
+// Spacing
+$spacing-unit: 1rem;
+
+// Transitions
+$transition-base: all 0.3s ease;

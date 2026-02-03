@@ -1,0 +1,35 @@
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Base
+@import 'base/reset';
+@import 'base/typography';
+
+// Components
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/swiper';
+
+// Layouts
+@import 'layouts/header';
+@import 'layouts/footer';
+
+// Utilities
+@import 'utilities/helpers';
+
+// Custom Tailwind components
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-semibold py-2 px-4 rounded transition-colors duration-200;
+  }
+
+  .container-custom {
+    @apply container mx-auto px-4;
+  }
+}
