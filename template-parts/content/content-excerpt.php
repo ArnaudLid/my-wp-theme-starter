@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package my-wp-theme-starter
+ * @package alx-stelere
  */
 
 ?>
@@ -14,7 +14,7 @@
 	<header class="entry-header">
 		<?php
 		if ( is_sticky() && is_home() && ! is_paged() ) {
-			printf( '%s', esc_html_x( 'Featured', 'post', 'my-wp-theme-starter' ) );
+			printf( '%s', esc_html_x( 'Featured', 'post', 'alx-stelere' ) );
 		}
 		the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 		?>

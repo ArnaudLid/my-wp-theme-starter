@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package my-wp-theme-starter
+ * @package alx-stelere
  */
 
 ?>
@@ -19,7 +19,7 @@
 				printf(
 					/* translators: 1: search result title. 2: search term. */
 					'<h1 class="page-title">%1$s <span>%2$s</span></h1>',
-					esc_html__( 'Search results for:', 'my-wp-theme-starter' ),
+					esc_html__( 'Search results for:', 'alx-stelere' ),
 					get_search_query()
 				);
 				?>
@@ -27,7 +27,7 @@
 
 		<?php else : ?>
 
-			<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'my-wp-theme-starter' ); ?></h1>
+			<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'alx-stelere' ); ?></h1>
 
 		<?php endif; ?>
 	</header><!-- .page-header -->
@@ -38,14 +38,14 @@
 			?>
 
 			<p>
-				<?php esc_html_e( 'Your site is set to show the most recent posts on your homepage, but you haven&rsquo;t published any posts.', 'my-wp-theme-starter' ); ?>
+				<?php esc_html_e( 'Your site is set to show the most recent posts on your homepage, but you haven&rsquo;t published any posts.', 'alx-stelere' ); ?>
 			</p>
 
 			<p>
 				<a href="<?php echo esc_url( admin_url( 'edit.php' ) ); ?>">
 					<?php
 					/* translators: 1: link to WP admin new post page. */
-					esc_html_e( 'Add or publish posts', 'my-wp-theme-starter' );
+					esc_html_e( 'Add or publish posts', 'alx-stelere' );
 					?>
 				</a>
 			</p>
@@ -55,7 +55,7 @@
 			?>
 
 			<p>
-				<?php esc_html_e( 'Your search generated no results. Please try a different search.', 'my-wp-theme-starter' ); ?>
+				<?php esc_html_e( 'Your search generated no results. Please try a different search.', 'alx-stelere' ); ?>
 			</p>
 
 			<?php
@@ -64,7 +64,7 @@
 			?>
 
 			<p>
-				<?php esc_html_e( 'No content matched your request.', 'my-wp-theme-starter' ); ?>
+				<?php esc_html_e( 'No content matched your request.', 'alx-stelere' ); ?>
 			</p>
 
 			<?php

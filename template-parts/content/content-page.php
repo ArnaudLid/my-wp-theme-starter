@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package my-wp-theme-starter
+ * @package alx-stelere
  */
 
 ?>
@@ -28,7 +28,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div>' . __( 'Pages:', 'my-wp-theme-starter' ),
+				'before' => '<div>' . __( 'Pages:', 'alx-stelere' ),
 				'after'  => '</div>',
 			)
 		);
@@ -42,7 +42,7 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers. */
-						__( 'Edit <span class="sr-only">%s</span>', 'my-wp-theme-starter' ),
+						__( 'Edit <span class="sr-only">%s</span>', 'alx-stelere' ),
 						array(
 							'span' => array(
 								'class' => array(),

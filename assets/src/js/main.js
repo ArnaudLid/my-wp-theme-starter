@@ -11,7 +11,6 @@ import 'swiper/css/effect-fade';
 
 // Import components
 import './components/menu';
-import './components/sliders';
 
 // Init
 document.addEventListener('DOMContentLoaded', () => {

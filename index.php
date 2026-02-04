@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package my-wp-theme-starter
+ * @package alx-stelere
  */
 
 get_header();

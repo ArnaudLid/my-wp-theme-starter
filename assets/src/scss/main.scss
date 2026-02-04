@@ -1,27 +1,21 @@
+@use "sass:meta";
+@use 'abstracts/variables';
+
 // Tailwind
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 // Abstracts
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-
-// Base
-@import 'base/reset';
-@import 'base/typography';
+@include meta.load-css('abstracts/mixins');
 
 // Components
-@import 'components/buttons';
-@import 'components/forms';
-@import 'components/swiper';
+@include meta.load-css('components/buttons');
+@include meta.load-css('components/swiper');
 
 // Layouts
-@import 'layouts/header';
-@import 'layouts/footer';
-
-// Utilities
-@import 'utilities/helpers';
+@include meta.load-css('layouts/header');
+@include meta.load-css('layouts/footer');
 
 // Custom Tailwind components
 @layer components {

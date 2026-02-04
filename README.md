@@ -1,2 +1,2 @@
-# my-wp-theme-starter
+# alx-stelere
 Wordpress starter theme 

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package my-wp-theme-starter
+ * @package alx-stelere
  */
 
 get_header();
@@ -20,7 +20,7 @@ get_header();
 				printf(
 					/* translators: 1: search result title. 2: search term. */
 					'<h1 class="page-title">%1$s <span>%2$s</span></h1>',
-					esc_html__( 'Search results for:', 'my-wp-theme-starter' ),
+					esc_html__( 'Search results for:', 'alx-stelere' ),
 					get_search_query()
 				);
 				?>

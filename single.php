@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package my-wp-theme-starter
+ * @package alx-stelere
  */
 
 get_header();
@@ -23,11 +23,11 @@ get_header();
 					// Previous/next post navigation.
 					the_post_navigation(
 						array(
-							'next_text' => '<span aria-hidden="true">' . __( 'Next Post', 'my-wp-theme-starter' ) . '</span> ' .
-								'<span class="sr-only">' . __( 'Next post:', 'my-wp-theme-starter' ) . '</span> <br/>' .
+							'next_text' => '<span aria-hidden="true">' . __( 'Next Post', 'alx-stelere' ) . '</span> ' .
+								'<span class="sr-only">' . __( 'Next post:', 'alx-stelere' ) . '</span> <br/>' .
 								'<span>%title</span>',
-							'prev_text' => '<span aria-hidden="true">' . __( 'Previous Post', 'my-wp-theme-starter' ) . '</span> ' .
-								'<span class="sr-only">' . __( 'Previous post:', 'my-wp-theme-starter' ) . '</span> <br/>' .
+							'prev_text' => '<span aria-hidden="true">' . __( 'Previous Post', 'alx-stelere' ) . '</span> ' .
+								'<span class="sr-only">' . __( 'Previous post:', 'alx-stelere' ) . '</span> <br/>' .
 								'<span>%title</span>',
 						)
 					);

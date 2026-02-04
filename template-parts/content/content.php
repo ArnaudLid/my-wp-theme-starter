@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package my-wp-theme-starter
+ * @package alx-stelere
  */
 
 ?>
@@ -14,7 +14,7 @@
 	<header class="entry-header">
 		<?php
 		if ( is_sticky() && is_home() && ! is_paged() ) {
-			printf( '<span">%s</span>', esc_html_x( 'Featured', 'post', 'my-wp-theme-starter' ) );
+			printf( '<span">%s</span>', esc_html_x( 'Featured', 'post', 'alx-stelere' ) );
 		}
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -30,7 +30,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div>' . __( 'Pages:', 'my-wp-theme-starter' ),
+				'before' => '<div>' . __( 'Pages:', 'alx-stelere' ),
 				'after'  => '</div>',
 			)
 		);
